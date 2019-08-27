@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ぐるなびAPIテスト</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" defer></script>
+  <script src="app.js" defer></script>
+  <style>
+  ul{
+    padding-left: 0;
+    list-style: none;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  </style>
+</head>
+<body>
+  <header class=" bg-warning mb-5">
+    <div class="container">
+      <div class="row p-3">
+        <div class="col-md-4 font-weight-bold"><i class="fas fa-drumstick-bite fa-2x"></i> <i class="fas fa-utensils fa-2x"></i></div>
+        <div class="col-md-8">
+          <div class="input-group">
+              <input type="text" id="key" placeholder="May I help you?" class="form-control"><div class="input-group-append"><input type="button" id="submit" value="SEARCH" class="btn btn-success"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    
+  </header>
+  <section class="container">
+    <ul id="shopList"></ul>
+  </section>
+</body>
+</html>
